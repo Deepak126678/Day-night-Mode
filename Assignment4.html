@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h2{
+                text-align: center;
+            }
+          
+            button{
+                display: flex;
+                flex-direction: row;
+                border-radius: 30%;
+                border:2px solid cyan;
+                height:50px;
+                width:80px;
+            }
+            #myImage{
+                height: fit-content;
+                border:2px solid black;
+                
+            }
+            body{
+                background-color: grey;
+                display: flex;
+                flex-direction: row;
+                padding-left:20%;
+            }
+        </style>
+    </head>
+<body><div>
+
+<h2>Day Night Mode</h2>
+
+
+
+
+<button onclick="document.getElementById('myImage').src='Day.jpg'">Turn on the light</button>
+
+<img id="myImage" src="Day.jpg" style="width:50%">
+
+<button onclick="document.getElementById('myImage').src='night.jpg'">Night Mode</button>
+</div>
+
+</body>
+</html>
